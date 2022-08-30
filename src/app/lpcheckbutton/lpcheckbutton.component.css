@@ -1,56 +1,90 @@
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-.file-input {
-    display: none;
-    visibility: hidden;
-}
 
-.save-button {
-    right: 00px
-}
-.file-upload {
-    padding: 6px;
-}
-
-.upload-btn {
-    line-height: 25px;
-    margin: 3px;
-    margin-bottom: 10px;
-    margin-top: 6px;
-    max-height: 60px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    max-width: max-content;
-    white-space: pre-wrap !important;
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
     font-size: 14px;
-}
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
 
-h4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-h5 {
-    margin: 3px;
-    margin-bottom: 3px;
-    margin-top: 3px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.padding {
-    padding-top: 10px;
-    font-size: 10px;
-}
-
-.else-ver {
-    line-height: 25px;
-    margin: 3px;
-    margin-bottom: 3px;
-    margin-top: 3px;
-    max-height: 60px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    max-width: max-content;
-    white-space: pre-wrap !important;
-    font-size: 14px;
-}
+  @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+  .file-input {
+      display: none;
+      visibility: hidden;
+  }
+  
+  .save-button {
+      right: 00px
+  }
+  .file-upload {
+      padding: 6px;
+  }
+/*   
+  .upload-btn {
+      line-height: 25px;
+      margin: 3px;
+      margin-bottom: 10px;
+      margin-top: 6px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      max-width: max-content;
+      white-space: pre-wrap !important;
+      font-size: 14px;
+  }
+  
+  h4 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+  }
+   */
+  h5 {
+      margin: 3px;
+      margin-bottom: 3px;
+      margin-top: 3px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+  }
+  
+  .padding {
+      padding-top: 10px;
+      font-size: 10px;
+  }
+  
+  .else-ver {
+      line-height: 25px;
+      margin: 3px;
+      margin-bottom: 3px;
+      margin-top: 3px;
+      max-height: 60px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      max-width: max-content;
+      white-space: pre-wrap !important;
+      font-size: 14px;
+  }
+  
